@@ -1,3 +1,10 @@
+/* Reset CSS */
+* {
+ /*Margem = Externa*/
+ margin: 0;
+ 
+}
+
 
 body  {
     /*Cor fundo*/
@@ -6,7 +13,27 @@ body  {
     Color: #5c0642;
 
 }
+/* Seletor para os <A> */
+a{
+
+    /* Propriedade e VALOR */
+    text-decoration: none;
+color: rgb(219, 93, 171);
+}
 
 
+
+
+/*HEADER = Cabeçalho */
+header { 
+    /* ROW  Linha Horizontal*/
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fae4f4;
+    /*Largura ou Comprimento */
+    width: 100%;
+}
 
 
