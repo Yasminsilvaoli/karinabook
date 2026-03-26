@@ -35,5 +35,13 @@ header {
     /*Largura ou Comprimento */
     width: 100%;
 }
+ /* UL  Sistema de Listas */
+ .menu {
+    list-style: none;
+/* Lista Horizontal */
+    display: flex;
+    /* Espaço entre TAGs */
+    gap: 1rem;
+}
 
 
