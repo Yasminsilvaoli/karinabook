@@ -43,5 +43,30 @@ header {
     /* Espaço entre TAGs */
     gap: 1rem;
 }
+/*Tag NAV*/
+.menu-desktop {
+display: none;
+}
 
+/*logo*/
+.logo {
+width: 10rem;
+}
+
+/*Daqui para cima versão Mobile*/
+/*=========================================*/
+
+/*Responsivo*/
+/*Serve para telas maiores*/
+
+/*telas maiores que 768px*/
+@media (min-width:768px) {
+    /*espaço inteiro*/
+    padding: 1rem 6rem;
+
+    /*NAV*/
+    .menu-desktop{
+        display: flex;
+    }
+}
 
